@@ -11,3 +11,4 @@ function findMin(float $a, float $b, float $c ) {
 }
 
 echo findMin(2.5, 2.3, 2.8);
+
