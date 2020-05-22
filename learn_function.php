@@ -2,9 +2,9 @@
 declare(strict_types=1);
 
 function findMin(float $a, float $b, float $c ) {
-    if ($a < $b && $a < $c) {
+    if ($a <= $b && $a <= $c) {
         return $a;
-    } elseif ($b < $a && $b < $c) {
+    } elseif ($b <= $a && $b <= $c) {
         return $b;
     }
     return $c;
